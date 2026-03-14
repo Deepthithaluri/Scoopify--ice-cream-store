@@ -15,8 +15,7 @@ e.preventDefault();
 
 try {
 
-if (email === process.env.ADMIN_EMAIL &&
-  password === process.env.ADMIN_PASSWORD) {
+if (email === "admin@scoopify.com" && password === "admin123") {
 
 localStorage.setItem("isAdmin", "true");
 localStorage.setItem("isLoggedIn", "true");
